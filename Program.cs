@@ -32,6 +32,28 @@ namespace text_adventure_game
             choice = Console.ReadLine().ToLower();
 
             Console.Clear();
+
+            switch (choice)
+            {
+                case "1":
+                case "Punch Him":
+                case "punch him":
+                case "PUNCH HIM":
+                case "Punch":
+                case "punch":
+                case "PUNCH":
+                    {
+                        Console.WriteLine("Your Fist Pounds Into Mr. Storm's Face.");
+                        Console.WriteLine("All The Other Students In Class Cheer Your Name.");
+                        Console.WriteLine("Mrs. Storm Hears The Commotion And Comes To Investigate.");
+                        Console.WriteLine("When She Sees Her Husband Crying In The Corner, She Shoots You With Her Lazer Eyes.");
+                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.ReadLine();
+                        gameOver();
+                        break;
+                    }
+
+            }
         }
 
         public static void secondSection()
