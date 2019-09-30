@@ -8,5 +8,10 @@ namespace text_adventure_game
         {
             Console.WriteLine("The game is loading...!");
         }
+
+        public static void gameTitle()
+        {
+
+        }
     }
 }
