@@ -12,7 +12,7 @@ namespace text_adventure_game
 
         public static void gameTitle()
         {
-
+            Console.WriteLine("Welcome To My Game: Text Adventure");
         }
 
         public static void firstSection()
