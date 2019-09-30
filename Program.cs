@@ -6,7 +6,7 @@ namespace text_adventure_game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The game is loading...!");
+            gameTitle();
         }
 
         public static void gameTitle()
