@@ -1,0 +1,11 @@
+/Users/placideirandora/Coding/C#/text-adventure-game/bin/Debug/netcoreapp3.0/text-adventure-game
+/Users/placideirandora/Coding/C#/text-adventure-game/bin/Debug/netcoreapp3.0/text-adventure-game.deps.json
+/Users/placideirandora/Coding/C#/text-adventure-game/bin/Debug/netcoreapp3.0/text-adventure-game.runtimeconfig.json
+/Users/placideirandora/Coding/C#/text-adventure-game/bin/Debug/netcoreapp3.0/text-adventure-game.runtimeconfig.dev.json
+/Users/placideirandora/Coding/C#/text-adventure-game/bin/Debug/netcoreapp3.0/text-adventure-game.dll
+/Users/placideirandora/Coding/C#/text-adventure-game/bin/Debug/netcoreapp3.0/text-adventure-game.pdb
+/Users/placideirandora/Coding/C#/text-adventure-game/obj/Debug/netcoreapp3.0/text-adventure-game.csprojAssemblyReference.cache
+/Users/placideirandora/Coding/C#/text-adventure-game/obj/Debug/netcoreapp3.0/text-adventure-game.AssemblyInfoInputs.cache
+/Users/placideirandora/Coding/C#/text-adventure-game/obj/Debug/netcoreapp3.0/text-adventure-game.AssemblyInfo.cs
+/Users/placideirandora/Coding/C#/text-adventure-game/obj/Debug/netcoreapp3.0/text-adventure-game.dll
+/Users/placideirandora/Coding/C#/text-adventure-game/obj/Debug/netcoreapp3.0/text-adventure-game.pdb
