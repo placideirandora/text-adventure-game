@@ -1,4 +1,4 @@
-# TEXT ADVENTURE GAME 
+# TEXT ADVENTURE GAME (C#)
 A console game application with C#.Net
 
 ## GETTING STARTED
