@@ -7,7 +7,6 @@ namespace text_adventure_game
         static void Main(string[] args)
         {
             gameTitle();
-            firstSection();
         }
 
         public static void gameTitle()
@@ -16,6 +15,7 @@ namespace text_adventure_game
             Console.WriteLine("Press 'Enter' To Begin:");
             Console.ReadLine();
             Console.Clear();
+            firstSection();
         }
 
         public static void firstSection()
