@@ -13,6 +13,9 @@ namespace text_adventure_game
         public static void gameTitle()
         {
             Console.WriteLine("Welcome To My Game: Text Adventure");
+            Console.WriteLine("Press 'Enter' To Begin:");
+            Console.ReadLine();
+            Console.Clear();
         }
 
         public static void firstSection()
