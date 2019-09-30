@@ -7,6 +7,7 @@ namespace text_adventure_game
         static void Main(string[] args)
         {
             gameTitle();
+            firstSection();
         }
 
         public static void gameTitle()
