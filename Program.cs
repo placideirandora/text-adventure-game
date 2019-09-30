@@ -28,5 +28,10 @@ namespace text_adventure_game
         {
 
         }
+
+        public static void gameOver()
+        {
+
+        }
     }
 }
