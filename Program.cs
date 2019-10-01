@@ -27,7 +27,7 @@ namespace text_adventure_game
             Console.WriteLine("1. Punch Him.");
             Console.WriteLine("2. Cry.");
             Console.WriteLine("3. Pee A Little. ");
-            Console.WriteLine("Choice: ");
+            Console.Write("Choice: ");
 
             choice = Console.ReadLine().ToLower();
 
@@ -109,7 +109,7 @@ namespace text_adventure_game
 
             Console.WriteLine(secondText);
             Console.WriteLine("Do You Try To Hide In The Bathroom; Yes Or No?");
-            Console.WriteLine("Choice: ");
+            Console.Write("Choice: ");
             secondChoice = Console.ReadLine().ToLower();
 
             if (secondChoice == "yes" || secondChoice == "y" || secondChoice == "YES" || secondChoice == "Y" || secondChoice == "Yes")
