@@ -79,6 +79,15 @@ namespace text_adventure_game
                         secondSection();
                         break;
                     }
+                default:
+                    {
+                        Console.WriteLine("I Don't Understand That Command...");
+                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.ReadLine();
+                        Console.Clear();
+                        firstSection();
+                        break;
+                    }
 
             }
         }
