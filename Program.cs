@@ -94,7 +94,26 @@ namespace text_adventure_game
 
         public static void secondSection()
         {
+            Random rnd = new Random();
+            string[] secondOptions = {
+                                        "In The Hallway, You See That The Cops Are Searching Lockers.",
+                                        "In The Hallway, You See Your Stalker Walking Toward You.",
+                                        "In The Hallway, The Fire Alarm Goes Off."
+                                    };
+            int randomNumber = rnd.Next(0, 3);
+            string secondText = secondOptions[randomNumber];
 
+            string secondChoice;
+
+            Console.WriteLine(secondText);
+            Console.WriteLine("Do You Try To Hide In The Bathroom; Yes Or No?");
+            Console.WriteLine("Choice: ");
+            secondChoice = Console.ReadLine().ToLower();
+
+            if (secondChoice == "yes" || secondChoice == "y" || secondChoice == "YES" || secondChoice == "Y" || secondChoice == "Yes")
+            {
+                thirdSection();
+            }
         }
 
         public static void thirdSection()
