@@ -4,11 +4,13 @@ namespace text_adventure_game
 {
     class Program
     {
+        // Main method in which the program starts the execution
         static void Main()
         {
             gameTitle();
         }
 
+        // Game title method for displaying the name of the game and providing the start point
         public static void gameTitle()
         {
             Console.WriteLine("Welcome To My Game: Text Adventure\n");
@@ -18,6 +20,7 @@ namespace text_adventure_game
             firstSection();
         }
 
+        // First section method which handles the first level of the game
         public static void firstSection()
         {
             string choice;
@@ -93,7 +96,8 @@ namespace text_adventure_game
 
             }
         }
-
+        
+        // Second section method which handles the second level of the game
         public static void secondSection()
         {
             Random rnd = new Random();
@@ -136,6 +140,7 @@ namespace text_adventure_game
             }
         }
 
+        // Third section method which handles the third level of the game
         public static void thirdSection()
         {
             int age;
@@ -163,6 +168,7 @@ namespace text_adventure_game
             gameSuccess();
         }
 
+        // Game over method which handles the user's failure
         public static void gameOver()
         {
             Console.Clear();
@@ -174,7 +180,8 @@ namespace text_adventure_game
             Console.Clear();
             gameTitle();
         }
-
+        
+        // Game success method which handles the user's victory
         public static void gameSuccess()
         {
             Console.Clear();
