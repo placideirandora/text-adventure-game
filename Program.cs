@@ -52,6 +52,18 @@ namespace text_adventure_game
                         gameOver();
                         break;
                     }
+                case "2":
+                case "Cry":
+                case "cry":
+                case "CRY":
+                    {
+                        Console.WriteLine("Mr. Storm's Face Becomes The Color Of Ripe Tomatoes.");
+                        Console.WriteLine("You Wanna Cry? Do It Out In The Hall! He Screams At The Top Of His Lungs.");
+                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.ReadLine();
+                        secondSection();
+                        break;
+                    }
 
             }
         }
