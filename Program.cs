@@ -137,7 +137,24 @@ namespace text_adventure_game
 
         public static void thirdSection()
         {
+            int age;
 
+            Console.WriteLine("You Burst Into The Bathroom And All Of Your Friends And Family Are There.");
+            Console.WriteLine("They Yell 'Suprise' And You Remember It's Your Birthday.");
+            Console.WriteLine("How Old Are You Today?");
+            Console.Write("Age: ");
+            int.TryParse(Console.ReadLine(), out age);
+
+            while (age < 100)
+            {
+                Console.WriteLine("Seriously? You Look Older Than That.");
+                Console.WriteLine("How Old Are You Really?");
+                Console.Write("Age: ");
+                int.TryParse(Console.ReadLine(), out age);
+            }
+
+            Console.WriteLine("Wow, You're Old. You Must Have Been Held Back A Lot!");
+            gameSuccess();
         }
 
         public static void gameOver()
