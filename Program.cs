@@ -162,7 +162,14 @@ namespace text_adventure_game
 
         public static void gameOver()
         {
-
+            Console.Clear();
+            Console.WriteLine("At Your Funeral, They Sing Songs Of Your Bravery.");
+            Console.WriteLine("Then, They Remember Whose Funeral They Are Attending And They Take It All Back.");
+            Console.WriteLine("Better Luck Next Time");
+            Console.WriteLine("Press 'Enter' To Continue.");
+            Console.ReadLine();
+            Console.Clear();
+            gameTitle();
         }
 
         public static void gameSuccess()
