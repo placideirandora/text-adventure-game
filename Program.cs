@@ -61,6 +61,7 @@ namespace text_adventure_game
                         Console.WriteLine("You Wanna Cry? Do It Out In The Hall! He Screams At The Top Of His Lungs.");
                         Console.WriteLine("Press 'Enter' To Continue.");
                         Console.ReadLine();
+                        Console.Clear();
                         secondSection();
                         break;
                     }
@@ -76,6 +77,7 @@ namespace text_adventure_game
                         Console.WriteLine("'Did You Just...? Get Out Of Here.' He Screams At The Top Of His Lungs.");
                         Console.WriteLine("Press 'Enter' To Continue.");
                         Console.ReadLine();
+                        Console.Clear();
                         secondSection();
                         break;
                     }
@@ -116,10 +118,12 @@ namespace text_adventure_game
             }
             else if (secondChoice == "no" || secondChoice == "n" || secondChoice == "NO" || secondChoice == "N" || secondChoice == "No")
             {
+                Console.Clear();
                 Console.WriteLine("A Meteor Slams Into The School At That Exact Moment, Killing You Instantly. ");
                 Console.WriteLine("Press 'Enter' To Continue.");
                 Console.ReadLine();
                 gameOver();
+                Console.Clear();
             }
             else
             {
