@@ -47,7 +47,7 @@ namespace text_adventure_game
                         Console.WriteLine("All The Other Students In Class Cheer Your Name.");
                         Console.WriteLine("Mrs. Storm Hears The Commotion And Comes To Investigate.");
                         Console.WriteLine("When She Sees Her Husband Crying In The Corner, She Shoots You With Her Lazer Eyes.");
-                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         gameOver();
                         break;
@@ -59,7 +59,7 @@ namespace text_adventure_game
                     {
                         Console.WriteLine("Mr. Storm's Face Becomes The Color Of Ripe Tomatoes.");
                         Console.WriteLine("You Wanna Cry? Do It Out In The Hall! He Screams At The Top Of His Lungs.");
-                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         Console.Clear();
                         secondSection();
@@ -75,7 +75,7 @@ namespace text_adventure_game
                     {
                         Console.WriteLine("Mr. Storm Sniffs The Air. The Other Students Begin Plugging Their Noses.");
                         Console.WriteLine("'Did You Just...? Get Out Of Here.' He Screams At The Top Of His Lungs.");
-                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         Console.Clear();
                         secondSection();
@@ -84,7 +84,7 @@ namespace text_adventure_game
                 default:
                     {
                         Console.WriteLine("I Don't Understand That Command...");
-                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         Console.Clear();
                         firstSection();
@@ -121,7 +121,7 @@ namespace text_adventure_game
             {
                 Console.Clear();
                 Console.WriteLine("A Meteor Slams Into The School At That Exact Moment, Killing You Instantly. ");
-                Console.WriteLine("Press 'Enter' To Continue.");
+                Console.WriteLine("Press 'Enter' To Continue:");
                 Console.ReadLine();
                 gameOver();
                 Console.Clear();
@@ -129,7 +129,7 @@ namespace text_adventure_game
             else
             {
                 Console.WriteLine("I Don't Understand That Command...");
-                Console.WriteLine("Press 'Enter' To Continue.");
+                Console.WriteLine("Press 'Enter' To Continue:");
                 Console.ReadLine();
                 Console.Clear();
                 secondSection();
@@ -166,7 +166,7 @@ namespace text_adventure_game
             Console.WriteLine("At Your Funeral, They Sing Songs Of Your Bravery.");
             Console.WriteLine("Then, They Remember Whose Funeral They Are Attending And They Take It All Back.");
             Console.WriteLine("Better Luck Next Time");
-            Console.WriteLine("Press 'Enter' To Continue.");
+            Console.WriteLine("Press 'Enter' To Continue:");
             Console.ReadLine();
             Console.Clear();
             gameTitle();
@@ -179,7 +179,7 @@ namespace text_adventure_game
             Console.WriteLine("The Cake Gave Everyone Super Powers.");
             Console.WriteLine("You Will All Live For Another 100 Years.");
             Console.WriteLine("Great Job! You Won.");
-            Console.WriteLine("Press 'Enter' To Try Again.");
+            Console.WriteLine("Press 'Enter' To Try Again:");
             Console.ReadLine();
             Console.Clear();
             gameTitle();
