@@ -174,7 +174,15 @@ namespace text_adventure_game
 
         public static void gameSuccess()
         {
-
+            Console.Clear();
+            Console.WriteLine("Your Birthday Party Was A Big Hit.");
+            Console.WriteLine("The Cake Gave Everyone Super Powers.");
+            Console.WriteLine("You Will All Live For Another 100 Years.");
+            Console.WriteLine("Great Job! You Won.");
+            Console.WriteLine("Press 'Enter' To Try Again.");
+            Console.ReadLine();
+            Console.Clear();
+            gameTitle();
         }
     }
 }
