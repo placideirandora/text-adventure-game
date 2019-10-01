@@ -1,5 +1,5 @@
 # TEXT ADVENTURE GAME (C#)
-A console game application with C#.Net
+The game is really interesting and very funny! The Main characters are: Mr. Storm, Mrs. Storm, Students, Police, Stalker, Friends, and Family.
 
 ## GETTING STARTED
 
@@ -12,5 +12,5 @@ $ git clone https://github.com/placideirandora/text-adventure-game
 ### Open The Project With Visual Studio Code
 
 ```
-$ Run the following command with vscode terminal to start the game: dotnet run
+$ Run the following command with VSCODE terminal to start the game: dotnet run
 ```
