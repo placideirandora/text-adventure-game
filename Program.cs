@@ -121,6 +121,14 @@ namespace text_adventure_game
                 Console.ReadLine();
                 gameOver();
             }
+            else
+            {
+                Console.WriteLine("I Don't Understand That Command...");
+                Console.WriteLine("Press 'Enter' To Continue.");
+                Console.ReadLine();
+                Console.Clear();
+                secondSection();
+            }
         }
 
         public static void thirdSection()
