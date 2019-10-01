@@ -114,6 +114,7 @@ namespace text_adventure_game
 
             if (secondChoice == "yes" || secondChoice == "y" || secondChoice == "YES" || secondChoice == "Y" || secondChoice == "Yes")
             {
+                Console.Clear();
                 thirdSection();
             }
             else if (secondChoice == "no" || secondChoice == "n" || secondChoice == "NO" || secondChoice == "N" || secondChoice == "No")
@@ -144,6 +145,7 @@ namespace text_adventure_game
             Console.WriteLine("How Old Are You Today?");
             Console.Write("Age: ");
             int.TryParse(Console.ReadLine(), out age);
+            Console.Clear();
 
             while (age < 100)
             {
@@ -153,6 +155,7 @@ namespace text_adventure_game
                 int.TryParse(Console.ReadLine(), out age);
             }
 
+            Console.Clear();
             Console.WriteLine("Wow, You're Old. You Must Have Been Held Back A Lot!");
             gameSuccess();
         }
