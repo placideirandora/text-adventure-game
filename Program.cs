@@ -114,6 +114,13 @@ namespace text_adventure_game
             {
                 thirdSection();
             }
+            else if (secondChoice == "no" || secondChoice == "n" || secondChoice == "NO" || secondChoice == "N" || secondChoice == "No")
+            {
+                Console.WriteLine("A Meteor Slams Into The School At That Exact Moment, Killing You Instantly. ");
+                Console.WriteLine("Press 'Enter' To Continue.");
+                Console.ReadLine();
+                gameOver();
+            }
         }
 
         public static void thirdSection()
