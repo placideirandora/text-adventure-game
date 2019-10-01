@@ -64,6 +64,21 @@ namespace text_adventure_game
                         secondSection();
                         break;
                     }
+                case "3":
+                case "Pee":
+                case "pee":
+                case "PEE":
+                case "Pee A Little":
+                case "pee a little":
+                case "PEE A LITTLE":
+                    {
+                        Console.WriteLine("Mr. Storm Sniffs The Air. The Other Students Begin Plugging Their Noses.");
+                        Console.WriteLine("'Did You Just...? Get Out Of Here.' He Screams At The Top Of His Lungs.");
+                        Console.WriteLine("Press 'Enter' To Continue.");
+                        Console.ReadLine();
+                        secondSection();
+                        break;
+                    }
 
             }
         }
