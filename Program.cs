@@ -7,21 +7,21 @@ namespace text_adventure_game
         // Main method in which the program starts the execution
         static void Main()
         {
-            gameTitle();
+            GameTitle();
         }
 
         // Game title method for displaying the name of the game and providing the start point
-        public static void gameTitle()
+        public static void GameTitle()
         {
             Console.WriteLine("Welcome To My Game: Text Adventure\n");
             Console.WriteLine("Press 'Enter' To Begin:");
             Console.ReadLine();
             Console.Clear();
-            firstSection();
+            FirstSection();
         }
 
         // First section method which handles the first level of the game
-        public static void firstSection()
+        public static void FirstSection()
         {
             string choice;
 
@@ -52,7 +52,7 @@ namespace text_adventure_game
                         Console.WriteLine("When She Sees Her Husband Crying In The Corner, She Shoots You With Her Lazer Eyes.\n");
                         Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
-                        gameOver();
+                        GameOver();
                         break;
                     }
                 case "2":
@@ -65,7 +65,7 @@ namespace text_adventure_game
                         Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         Console.Clear();
-                        secondSection();
+                        SecondSection();
                         break;
                     }
                 case "3":
@@ -81,7 +81,7 @@ namespace text_adventure_game
                         Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         Console.Clear();
-                        secondSection();
+                        SecondSection();
                         break;
                     }
                 default:
@@ -90,7 +90,7 @@ namespace text_adventure_game
                         Console.WriteLine("Press 'Enter' To Continue:");
                         Console.ReadLine();
                         Console.Clear();
-                        firstSection();
+                        FirstSection();
                         break;
                     }
 
@@ -98,7 +98,7 @@ namespace text_adventure_game
         }
         
         // Second section method which handles the second level of the game
-        public static void secondSection()
+        public static void SecondSection()
         {
             Random rnd = new Random();
             string[] secondOptions = {
@@ -119,7 +119,7 @@ namespace text_adventure_game
             if (secondChoice == "yes" || secondChoice == "y" || secondChoice == "YES" || secondChoice == "Y" || secondChoice == "Yes")
             {
                 Console.Clear();
-                thirdSection();
+                ThirdSection();
             }
             else if (secondChoice == "no" || secondChoice == "n" || secondChoice == "NO" || secondChoice == "N" || secondChoice == "No")
             {
@@ -127,7 +127,7 @@ namespace text_adventure_game
                 Console.WriteLine("A Meteor Slams Into The School At That Exact Moment, Killing You Instantly.\n");
                 Console.WriteLine("Press 'Enter' To Continue:");
                 Console.ReadLine();
-                gameOver();
+                GameOver();
                 Console.Clear();
             }
             else
@@ -136,12 +136,12 @@ namespace text_adventure_game
                 Console.WriteLine("Press 'Enter' To Continue:");
                 Console.ReadLine();
                 Console.Clear();
-                secondSection();
+                SecondSection();
             }
         }
 
         // Third section method which handles the third level of the game
-        public static void thirdSection()
+        public static void ThirdSection()
         {
             int age;
 
@@ -165,11 +165,11 @@ namespace text_adventure_game
             Console.WriteLine("Press 'Enter' To Continue:");
             Console.ReadLine();
             Console.Clear();
-            gameSuccess();
+            GameSuccess();
         }
 
         // Game over method which handles the user's failure
-        public static void gameOver()
+        public static void GameOver()
         {
             Console.Clear();
             Console.WriteLine("At Your Funeral, They Sing Songs Of Your Bravery.");
@@ -178,11 +178,11 @@ namespace text_adventure_game
             Console.WriteLine("Press 'Enter' To Continue:");
             Console.ReadLine();
             Console.Clear();
-            gameTitle();
+            GameTitle();
         }
         
         // Game success method which handles the user's victory
-        public static void gameSuccess()
+        public static void GameSuccess()
         {
             Console.Clear();
             Console.WriteLine("Your Birthday Party Was A Big Hit.");
@@ -192,7 +192,7 @@ namespace text_adventure_game
             Console.WriteLine("Press 'Enter' To Try Again:");
             Console.ReadLine();
             Console.Clear();
-            gameTitle();
+            GameTitle();
         }
     }
 }
