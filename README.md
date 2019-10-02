@@ -9,6 +9,15 @@ The game is really interesting and very funny! The Main characters are: Mr. Stor
 $ git clone https://github.com/placideirandora/text-adventure-game
 ```
 
+### Install C# Extension
+
+```
+$ Open the extensions tab, find and install the C# extension by OmniSharp. 
+```
+```
+$ Extension name: C# for Visual Studio Code (powered by OmniSharp).
+```
+
 ### Open The Project With Visual Studio Code
 
 ```
