@@ -6,7 +6,7 @@ The game is really interesting and very funny! The Main characters are: Mr. Stor
 ### Clone The Project
 
 ```
-$ git clone https://github.com/placideirandora/text-adventure-game-with-c-sharp
+$ git clone https://github.com/placiderapson/text-adventure-game-with-c-sharp
 ```
 
 ### Install C# Extension
